@@ -9,7 +9,7 @@
 #import "UIImage+KGNoise.h"
 #import "KGNoise.h"
 
-@implementation UIImage (KGNoise)
+@implementation UIImage(KGNoise)
 
 - (UIImage *)imageWithNoiseOpacity:(CGFloat)opacity{
 	return [self imageWithNoiseOpacity:opacity andBlendMode:kCGBlendModeScreen];

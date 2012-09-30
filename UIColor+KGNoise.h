@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (KGNoise)
+@interface UIColor(KGNoise)
 
 - (UIColor *)colorWithNoiseOpacity:(CGFloat)opacity;
 - (UIColor *)colorWithNoiseOpacity:(CGFloat)opacity andBlendMode:(CGBlendMode)blendMode;

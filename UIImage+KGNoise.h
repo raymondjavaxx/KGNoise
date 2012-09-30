@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (KGNoise)
+@interface UIImage(KGNoise)
 
 - (UIImage *)imageWithNoiseOpacity:(CGFloat)opacity;
 - (UIImage *)imageWithNoiseOpacity:(CGFloat)opacity andBlendMode:(CGBlendMode)blendMode;

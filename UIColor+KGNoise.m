@@ -9,7 +9,7 @@
 #import "UIColor+KGNoise.h"
 #import "KGNoise.h"
 
-@implementation UIColor (KGNoise)
+@implementation UIColor(KGNoise)
 
 - (UIColor *)colorWithNoiseOpacity:(CGFloat)opacity{
 	return [self colorWithNoiseOpacity:opacity andBlendMode:kCGBlendModeScreen];
